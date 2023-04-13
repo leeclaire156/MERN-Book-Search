@@ -125,6 +125,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * Adding useNewUrlParser and useUnifiedTopology decision made by the information provided in [mongoose's](https://mongoosejs.com/) official documentation:<br></br>https://mongoosejs.com/docs/deprecations.html
 
+* Book `input` type used in `server/schemas/typeDefs.js` information provided by [GraphQL](https://graphql.org/):<br></br>https://graphql.org/graphql-js/mutations-and-input-types/
+
 
 ## Questions
 
