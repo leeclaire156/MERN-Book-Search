@@ -40,12 +40,12 @@ const resolvers = {
 
         // Add a third argument to the resolver (context) to access data in our `context`
         // This makes it so a logged in user can only remove a book from their own profile
-        saveBook: async (parent, { userId, book }, context) => {
+        saveBook: async (parent, { input }, context) => {
             if (context.user) {
                 return User.findOneAndUpdate(
-                    { _id: userId },
+                    { _id: context.user._id },
                     {
-                        $addToSet: { savedBooks: book },
+                        $addToSet: { savedBooks: input },
                     },
                     {
                         new: true,
@@ -56,11 +56,11 @@ const resolvers = {
             // If user tries to perform this mutation & isn't logged in, throw this error
             throw new AuthenticationError('You need to be logged in!');
         },
-        removeBook: async (parent, { book }) => {
+        removeBook: async (parent, { bookId }, context) => {
             if (context.user) {
                 return User.findOneAndUpdate(
                     { _id: context.user._id },
-                    { $pull: { savedBooks: book } },
+                    { $pull: { savedBooks: {  bookId: bookId } } },
                     { new: true }
                 );
             } throw new AuthenticationError('You need to be logged in!');

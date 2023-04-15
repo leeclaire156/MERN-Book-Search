@@ -127,6 +127,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * Book `input` type used in `server/schemas/typeDefs.js` information provided by [GraphQL](https://graphql.org/):<br></br>https://graphql.org/graphql-js/mutations-and-input-types/
 
+https://www.apollographql.com/tutorials/side-quest-intermediate-schema-design/03-the-input-type
 
 ## Questions
 
