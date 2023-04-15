@@ -129,6 +129,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 https://www.apollographql.com/tutorials/side-quest-intermediate-schema-design/03-the-input-type
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
 ## Questions
 
 If you have any questions, my GitHub profile is www.github.com/leeclaire156, and my email is lee.claire156@gmail.com.
