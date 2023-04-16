@@ -127,9 +127,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * Book `input` type used in `server/schemas/typeDefs.js` information provided by [GraphQL](https://graphql.org/):<br></br>https://graphql.org/graphql-js/mutations-and-input-types/
 
-https://www.apollographql.com/tutorials/side-quest-intermediate-schema-design/03-the-input-type
+* Book `input` type used in `server/schemas/typeDefs.js` additional information provided by [Apollo GraphQL](https://www.apollographql.com/):<br></br>https://www.apollographql.com/tutorials/side-quest-intermediate-schema-design/03-the-input-type
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+* Optional Chaining information provided by [Mozilla MDN](https://developer.mozilla.org/):<br></br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
 
 ## Questions
 
