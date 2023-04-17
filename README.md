@@ -77,26 +77,26 @@ Method 2 - File > Preferences > Setting:
 
 ## Usage
 
-* This full-stack application's online version is deployed [here](#blank) on Heroku. After clicking the link, click on the search engine and type in a book title of your choice.
+* This full-stack application's online version is deployed [here](https://book-search-leeclaire156.herokuapp.com/) on Heroku. After clicking the link, click on the search engine and type in a book title of your choice.
 
-![Screenshot of Homepage to come]()
+![Screenshot of Homepage](./assets/screenshots/homepage.PNG)
 
 * If you're logged in, click on the blue button that says "Save this book!" found under the book's summary to add the book to your user's list. Once this is clicked, the button will disable and say "This book has already been saved!". 
 
-![Screenshot of logged in Results Page to come]()
+![Screenshot of logged in Results Page](./assets/screenshots/logged-in-results.PNG)
 
 * The user's book list can be found in the upper right hand corner by clicking "See Your Books". Users can delete books from their list with the red button that says "Delete this Book!" found under the book's summary. To go back to the search engine, click on "Search for books" in the upper right hand corner.
 
-![Screenshot of Dashboard with saved books to come]()
+![Screenshot of Dashboard with saved books](./assets/screenshots/logged-in-dashboard.PNG)
 
 * If you're not logged in, you will not see this blue button in the book results.
 
-![Screenshot of NOT logged in Results Page to come]()
+![Screenshot of NOT logged in Results Page](./assets/screenshots/not-logged-in-results.PNG)
 
 * Users can toggle between logging in on signing up with "Login/Sign Up" in the upper right hand corner.
 
-![Screenshot of Login to come]()
-![Screenshot of SignUp to come]()
+![Screenshot of Login](./assets/screenshots/homepage-login-form.PNG)
+![Screenshot of SignUp](./assets/screenshots/homepage-signup-form.PNG)
 
 ### The following commands are for further development only and come from React
 
